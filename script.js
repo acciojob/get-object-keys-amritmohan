@@ -1,13 +1,8 @@
-
 const student = {
-  name: "John",
+    name: "John Doe"
 };
 
-// Function to get all keys from the object
+// Function to get object keys
 function getKeys(obj) {
-  return Object.keys(obj);
-}
-
-if (typeof module !== "undefined") {
-  module.exports = getKeys;
+    return Object.keys(obj);
 }
